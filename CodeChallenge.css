@@ -1,47 +1,35 @@
-/*body {
-  background: url('image1.jpg') no-repeat center top scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size:100% auto;
-}*/
-/*body:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
-}*/
-/*img {
-  margin-top: 800px;
-}*/
-
 html, body {
   height: 100%;
   width: 100%;
 }
 
 .head {
+  text-align: center;
   height: 100%;
   background: url('image1.jpg') no-repeat center top scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:100% auto;
+  background-size: cover;
 }
+
 .head:before {
   content: " ";
   width: 100%;
   height: 100%;
   position: absolute;
-  /*z-index: -1;*/
   top: 0;
   left: 0;
-  /*background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);*/
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(24,72,135,1) 100%);
+}
+
+.header {
+  text-align: left;
+}
+
+.arr {
+  position: absolute;
+  bottom: 0;
 }
 
 .white {
@@ -56,6 +44,7 @@ html, body {
   background: none;
   padding: 20px 22px;
 }
+
 .btn-default.outline {
   border: 2px solid white;
   color: white;
@@ -69,15 +58,16 @@ html, body {
 
 .summary {
   position: absolute;
-  top: 0;
-  left: 70%;
   margin-top: 10%;
+  padding-right: 100px;
 }
 
-.arrow {
-  postion: absolute;
-  /*bottom: 5%;*/
-  top:0;
-  right: 50%;
-  margin-top: 90%;
+.buttons {
+  width: 350px;
+}
+
+.navright {
+  position: absolute;
+  right: 5px;
+  top: 10px;
 }
